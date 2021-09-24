@@ -20,7 +20,7 @@ public class AnimalPersistencia {
 
     ObjectMapper objectMapper = new ObjectMapper();
     private void mapearObjeto(){
-        objectMapper.findAndRegisterModules();
+        objectMapper. findAndRegisterModules();
         objectMapper.enable(SerializationConfig.Feature.INDENT_OUTPUT);
     }
 
