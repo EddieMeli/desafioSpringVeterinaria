@@ -30,7 +30,7 @@ public class AnimalPersistencia {
         Persistivel pp = new Persistivel();
 
         if (pp.proprietarioJaCadastrado(animalDTO.getProprietario())){
-            //erro
+            throw new RuntimeException("Cadastre primeiro o proprietario")
         }
 
         listAnimal.add(animalDTO);
