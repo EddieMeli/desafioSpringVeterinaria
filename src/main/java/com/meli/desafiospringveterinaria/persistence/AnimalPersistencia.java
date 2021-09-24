@@ -29,7 +29,7 @@ public class AnimalPersistencia {
         listAnimal = listarAnimal();
         Persistivel pp = new Persistivel();
 
-        if (pp.proprietarioJaCadastrado(animalDTO.getProprietario() {
+        if (pp.proprietarioJaCadastrado(animalDTO.getProprietario())){
             //erro
         }
 
